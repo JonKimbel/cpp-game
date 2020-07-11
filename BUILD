@@ -3,6 +3,7 @@ cc_binary (
   srcs = ["game.cc"],
   deps = [
     "@fmt_github//:fmt",
+    "@sdl_github//:sdl",
   ]
 )
 
